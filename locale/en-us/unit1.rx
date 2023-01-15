@@ -1,1 +1,1 @@
-.*custom[^\d]* (\d+) (?P<Unit1>(ml|oz|mls|milliliter|milliliters|ounce|ounces)).*(juice|soda|water|pepsi|coke|cola|vodka|booze|liquor|alcohol|alcoholic).*
+.*custom[^\d]* (\d+) (?P<Unit1>(ml|oz|mls|milliliter|milliliters|ounce|ounces)).*(juice|soda|water|pepsi|gin|tonic|coke|cola|vodka|booze|liquor|alcohol|alcoholic).*

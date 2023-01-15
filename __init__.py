@@ -60,8 +60,8 @@ class Drink(MycroftSkill):
         #      type2 = ''
         #self.speak_dialog('Volume2 is '+volume2 + ', Unit2 is '+unit2) 
 
-        boozeVolume = self.convert(unit1, volume1) if type1.strip() in ['vodka','booze','liquor','alcohol','alcoholic']  else  self.convert(unit2, volume2)
-        juiceVolume = self.convert(unit2, volume2) if type1.strip() in ['vodka','booze','liquor','alcohol','alcoholic']  else  self.convert(unit1, volume1)
+        boozeVolume = self.convert(unit1, volume1) if type1.strip() in ['vodka','booze', 'gin', 'liquor','alcohol','alcoholic']  else  self.convert(unit2, volume2)
+        juiceVolume = self.convert(unit2, volume2) if type1.strip() in ['vodka','booze', 'gin', 'liquor','alcohol','alcoholic']  else  self.convert(unit1, volume1)
 
         if boozeVolume>100:
             self.speak_dialog('You ask too much of liquor, boozer'); 
