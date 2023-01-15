@@ -13,7 +13,6 @@ Serves a drink
 * "I want a drink"
 * "Make me a drink"
 * "Pour me a drink"
-* "Drinl"
 * "Drink"
 * "Thirsty"
 
